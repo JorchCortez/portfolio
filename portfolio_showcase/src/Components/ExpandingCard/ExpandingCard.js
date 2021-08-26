@@ -7,7 +7,7 @@ return(
         {props.cards.map((card, i ) => { 
             var classes = (i === props.activeCard) ? "ex-card--panel active" : "ex-card--panel";
             return(
-                <div key={i} className={classes} style={{backgroundImage: `url(${card.img})`}} onClick={()=>{props.updateActive(i)}} >  
+                <div key={i} className={classes} style={{backgroundImage: `url(${card.img})`}} onClick={()=>{props.setActive(i)}} >  
                     <h3>{card.title} </h3>
                 </div>
             )})}  
