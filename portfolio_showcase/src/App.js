@@ -1,14 +1,12 @@
 import './App.scss'; 
-import React, { useState } from 'react';
-import HiddenSearch from './Components/HiddenSearch/HiddenSearch';
-              
-
+import React from 'react';  
+import DefaultCard from './Components/ContentPlaceholder/DefaultCard/DefaultCard'
 function App() { 
-   
+
   return (
     <div className="App">
-      <div className="container">   
-      <HiddenSearch></HiddenSearch>
+      <div className="container"> 
+        <DefaultCard />
       </div> 
     </div>
   );

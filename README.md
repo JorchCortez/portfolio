@@ -3,7 +3,8 @@
 Hi! this is a small portfolio of simple web projects
 
  - Expanding Cards
- - Progress Steps 
+ - Progress Steps
+ - Search bar
 
 # File Management
 All of the components are found in the components folder, this contain all what is needed to run it, the index above will show how to implement each of them on your site.
